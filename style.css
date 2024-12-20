@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Plus Jakarta Sans" ;
+}
+body{
+    background-color: #0D020D;
+}
+.plus-jakarta-sans {
+    font-family: "Plus Jakarta Sans", serif;
+}
+.source-serif-4 {
+    font-family: "Source Serif 4", serif;
+}
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF8FFF33;
+    padding: .833vw 2.52vw;
+    border: 0.13vw solid #FF8FFF33;
+    border-radius: 1.07vw;
+    margin: 1.5vw 12.5vw;
+}
+.part1{
+    display: flex;
+    gap: 2.5vw;
+}
+.header .part1 p{
+    font-size: 1.7vw;
+    font-weight: 400;
+    line-height: 1.6vw;
+    color: #E4D7E4;
+}
+.part2 p{
+    font-size: 2.25vw;
+    font-weight: 400;
+    line-height: 2.88vw;
+    text-align: left;
+    width: 13.86vw;
+    height: Fixed (4.2vw)vw;
+    gap: 0.75rem;
+    color: #E4D7E4;
+}
+.part2{
+    margin-right: 12vw;
+}
+.contact{
+    font-size: 1.7vw;
+    font-weight: 400;
+    line-height: 1.6vw;
+    color: #E4D7E4;
+}
+
+.text1 h1{
+    font-size: 8vw;
+    line-height: 8vw;
+    padding-top: 7vw ;
+    padding-bottom: 3vw;
+    color: #E4D7E4;
+    text-align: center;
+}
+
+.text1 img{
+    padding: 0 3.5vw;
+    width: 92vw;
+    height: 46vw;
+    margin-bottom: 8vw;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    padding: 0 3.5vw;
+    column-gap: 1.7vw;
+    align-items: center;
+}
+
+.projects img{
+    height: 18vw;
+    width: 28vw;
+}
+
+.projects h3{
+    color: #E4D7E4;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 400;
+    font-size: 1.33vw;
+    line-height: 1.6vw;
+}
+
+.projects p{
+    color: #E4D7E4;
+    font-family: "Plus Jakarta Sans";
+    font-weight: lighter;
+    font-size: 1vw;
+    line-height: 1.6vw;
+    padding-bottom: 3.3vw;
+}
+.Neon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4.5vw;
+    width: 90vw;
+    gap: 2vw;
+    margin: 4vw;
+}
+.NeonPortfolio{
+    color: #E4D7E4;
+    font-size: 4.3vw;
+    padding-left: 1vw;
+    width: 60vw;
+    font-weight: 700;
+}
+.para{
+    color: #EBD1EB9E;
+    font-size: 1.4vw;
+    width: 35vw;
+    /* padding-right: 1vw; */
+    padding-left: 10vw;
+    font-weight: 400;
+    line-height: 2.1vw;
+    
+    
+}
+.cyberpunk{
+    display: flex;
+    background-color: #0D020D;
+    background: radial-gradient(184.11% 185.17% at 28.27% 7.59%, rgba(13, 2, 13, 0.7) 37.83%, rgba(112, 0, 112, 0.739) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    height: 50.5vw;
+}
+.cyberpunk-text{
+    width: 45vw;
+    height: 50vw;
+    color: #E4D7E4;
+    margin-top: 20vw;
+}
+.cyberpunk-text  h1{
+    font-size: 4vw;
+    padding-left: 4vw;
+}
+
+.cyberpunk-text p{
+    margin-top: 1vw;
+    font-size: 1.8vw;
+    padding-left: 4.5vw;
+}
+.cyberpunk-text button{
+    width: 14.33vw;
+    height: 3.2vw;
+    font-size: 1.33vw;
+    background-color: #FF00FF;
+    color:white ;
+    margin:3vw;
+    border-radius: 1vw;
+}
+.cyberimage img{
+    padding-left: 20%;
+    width: 45vw;
+    height: 50vw;
+    
+}
+
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E4D7E4;
+
+}
+.contact-form {
+    background-color:#0D020D;
+    padding: 2vw;
+    border-radius: 0.66vw;
+    box-shadow: 0 0 1.33vw rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width:40vw;
+    width: 100%;
+   
+
+}
+
+.contact-form h1 {
+    margin-bottom: 1.3vw;
+}
+
+.contact-form p {
+    margin-bottom: 2vw;
+    color: #d3c1e5;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.33vw;
+}
+
+.input-row {
+    display: flex;
+    gap: 1.33vw;
+}
+
+.input-field {
+    background-color: #3a1e4d;
+    border: none;
+    border-radius: 0.33vw;
+    padding: 1vw;
+    color: #d3c1e5;
+    font-size: 1.1vw;
+    flex: 1;
+}
+
+.input-field.full-width {
+    flex: 1 0 100%;
+}
+
+.input-field::placeholder {
+    color: #7a577b;
+}
+
+.submit-btn {
+    background-color: #dba7e0;
+    width: 6vw;
+    color: #3a1e4d;
+    border: none;
+    border-radius: 0.33vw;
+    padding: 1vw;
+    font-size: 1.1vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.submit-btn:hover {
+    background-color: #c795d4;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    color: #E4D7E4;
+    padding:  5vw 3vw;
+}
+.service div h1{
+    width: 46vw;
+    font-size: 1.87vw;
+}
+.service div p{
+    font-size: 1.33vw;
+}
+
+.last{
+    display: flex;
+    padding: 3.333vw 0;
+    gap: 3.333vw;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 3.333vw;
+}
+.head{
+    font-family: Cutive;
+    font-size: 3.333vw;
+    font-weight: 400;
+    line-height: 3.611vw;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: white;
+}
+.cards{
+    display: flex;
+    gap: 3.333vw;
+    flex-direction: row;
+    overflow-x: scroll;
+    color: white;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E0B8E01F;
+    width: 20vw;
+    border: 2px solid rgba(23, 52, 9, 0.16);
+    padding: 1.667vw;
+    gap: 1.111vw;
+    border-radius: 1.111vw;
+}
+.name-container{
+    display: flex;
+    gap: 0.833vw;
+    background-color: transparent;
+    margin: 0 1.333vw;
+    color: white;
+}
+.avatar{
+    border-radius: 50%;
+    width: 3.333vw;
+    height: 3.333vw;
+    background-color: transparent;
+}
+.n{
+    background-color: transparent;
+}
+.name{
+    font-family: Kumbh Sans;
+    font-size: 1.042vw;
+    font-weight: 600;
+    line-height: 1.389vw;
+    text-align: left;
+    background-color: transparent;
+    color: white;
+
+}
+.designation{
+    font-family: Kumbh Sans;
+    font-size: 1.042vw;
+    font-weight: 500;
+    line-height: 1.389vw;
+    text-align: left;
+    background-color: transparent;
+    color: white;
+}
+.comment-container{
+    background-color: transparent;
+    padding: 0 0 0.556vw 0;
+    gap: 0.833vw;
+    opacity: 80%;
+    display: flex;
+    margin: 0 3.332vw;
+    gap: 2vw;
+}
+.line{
+    height: auto;
+    border-radius: 1px;
+    border: 1px solid white;
+    text-align: center;
+    background-color: transparent;
+}
+.comment{
+    width: 12.5vw;
+    font-family: Kumbh Sans;
+    font-size: 1.389vw;
+    font-weight: 500;
+    line-height: 1.667vw;
+    text-align: left;
+    background-color: transparent;
+}
+.footer {
+    margin: 0 3.333vw;
+    padding-top: 6.667vw;
+    padding-bottom: 1.667vw;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.pagelink{
+    font-family: Cutive;
+    font-size: 1.944vw;
+    font-weight: 400;
+    line-height: 2.222vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #c795d4;
+    text-decoration: none;
+}
+.contact{
+    padding: 0.833vw 1.667vw 0.833vw 1.667vw;
+    border-radius: 8px;
+    border: 2px solid rgba(29, 34, 27, 1);
+    font-family: Kumbh Sans;
+    font-size: 1.389vw;
+    font-weight: 600;
+    line-height: 1.667vw;
+    text-align: left;
+    background-color: #0D020D;
+}
+
+
